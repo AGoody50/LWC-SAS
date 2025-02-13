@@ -825,6 +825,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?note_annotation_20250213144022744",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:40:22.744Z",
+	"dcterms:modified": "2025-02-13T14:40:22.744Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AGoody50",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alex Goody"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?note_annotation_20250213144022744#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?note_annotation_20250213144022744#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "The Ice Follies of 1939 is a 1939 American musical drama film directed by Reinhold Schünzel, and starring Joan Crawford, James Stewart, Lew Ayres and Lewis Stone."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -918,7 +997,7 @@
          <p>Last night she came again and sat down on the end of my bed, looking very benevolent,
             spreading out her blue nylon-net skirts, and recalling to me (even though I was asleep)
             where I had seen her before—she was somebody I saw in a live stage show when I was four
-            and I’d swear it was the Ice Follies because I remember her in ice skates.</p>
+            and I’d swear it was the Ice Follies<note type="scholarNote">The Ice Follies of 1939 is a 1939 American musical drama film directed by Reinhold Schünzel, and starring Joan Crawford, James Stewart, Lew Ayres and Lewis Stone.</note> because I remember her in ice skates.</p>
 
          <sp>
             <speaker>The Tooth Fairy:</speaker>
