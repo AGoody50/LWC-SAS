@@ -252,7 +252,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?person_annotation_20250213142242477#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[2]/persName[4]"
+			"rdf:value": "TEI/text/body/p[2]/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -429,6 +429,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?person_annotation_20250213142608979",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:26:08.979Z",
+	"dcterms:modified": "2025-02-13T14:26:08.979Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AGoody50",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alex Goody"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?person_annotation_20250213142608979#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?person_annotation_20250213142608979#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q230476",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:unknown"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213142630678",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:26:30.678Z",
+	"dcterms:modified": "2025-02-13T14:26:30.678Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AGoody50",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alex Goody"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213142630678#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AGoody50/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213142630678#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q6097",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -454,7 +613,7 @@
             characters in bad movies are perpetually trving to convey (unsuccessfully) when they
             Wrinkle Their Wee Brows and say (valiantly—dutifully—after all, they didn’t write it)
             "But, Doctor, doesn’t that violate Finagle's Constant?" I staggered to the bathroom,
-            released floods of tea, and returned to the kitchen to talk. It was professional talk.
+            released floods of <rs key="tea" ref="http://www.wikidata.org/entity/Q6097">tea</rs>, and returned to the kitchen to talk. It was professional talk.
             It left me grey-faced and with such concentration that I began to develop a headache. We
             talked about Mary Ann Evans's loss of faith, about <persName key="Emily Brontë" ref="http://dbpedia.org/resource/Emily_Brontë" cert="high" type="real">Emily Bronté'</persName>s isolation, about
             Charlotte Bronté's blinding cloud, about the split in <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909">Virginia Woolf</persName>'s head and the
@@ -464,7 +623,7 @@
             They did not all write letters, write memoirs, or go on the stage. Sappho—only an
             ambiguous, somewhat disagreeable name. Corinna? The teacher of <persName key="Pindar" ref="http://www.wikidata.org/entity/Q134929" cert="medium" type="real">Pindar</persName>. Olive Schreiner,
             growing up on the veldt, wrote one book, married happily, and never wrote another.
-            Kate Chopin wrote a scandalous book and never wrote another. (Jean has written nothing.)
+            <persName key="Kate Chopin" ref="http://www.wikidata.org/entity/Q230476" cert="unknown">Kate Chopin</persName> wrote a scandalous book and never wrote another. (Jean has written nothing.)
             There was M-ry Sh-ll-y who wrote you know what and Ch-rl-tt- P-rk-ns G-lm-n, who wrote
             one superb horror story and lots of sludge (was it sludge?), and Ph-Il-s Wh--tl-y who
             was black and wrote eighteenth-century odes (but it was the eighteenth century) and
